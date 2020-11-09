@@ -1,0 +1,10 @@
+version: "3"
+services:
+  scrambled:
+    image: com.challenge/scrambledwords:latest
+    container_name: scrambled
+    command: "--dictionary /app/data/dictionary.txt --input /app/data/input.txt"
+    volumes:
+      - ./data:/app/data
+volumes:
+  data:

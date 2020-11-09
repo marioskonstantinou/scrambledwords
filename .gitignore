@@ -1,0 +1,17 @@
+logs
+project/project
+project/target
+target/
+dist
+/.idea
+/*.iml
+/.idea_modules
+/.classpath
+/.project
+/RUNNING_PID
+/.settings
+excl/
+/.metals
+/.bloop
+metals.sbt
+.DS_Store
